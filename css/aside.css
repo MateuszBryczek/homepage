@@ -1,0 +1,14 @@
+.aside {
+    height: 125px;
+    margin: 4px auto 4px auto;
+    padding: 5px 10px;
+    text-align: center;
+    border: 1px solid black;
+}
+
+.aside__ad {
+    margin: auto;
+    text-align: center;
+    color: grey;
+    padding: 50px;
+}

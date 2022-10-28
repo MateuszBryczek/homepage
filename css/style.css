@@ -1,0 +1,28 @@
+html {
+    box-sizing: border-box;
+}
+
+*,
+::after,
+::before {
+    box-sizing: inherit;
+}
+
+.body {
+    font-size: 16px;
+    max-width: 1000px;
+    margin: 0 auto;
+    text-align: center;
+    background-color: rgb(26, 26, 26);
+    font-family: 'Montserrat', sans-serif;
+    line-height: 1.5;
+}
+
+.darkBody {
+    font-size: 16px;
+    max-width: 1000px;
+    margin: 0 auto;
+    text-align: center;
+    background-color: white;
+    color: black;
+}
