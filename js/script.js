@@ -1,14 +1,21 @@
-console.log("Witaj w ksoli developerze");
+{
+const welcome = () => {
+   console.log("Witaj w ksoli developerze");
+};
 
-let changeBackground = document.querySelector(".main__button");
-let color = document.querySelector(".color");
-let body = document.querySelector(".body");
+const togglrBackground = () => {
+   const body = document.querySelector(".body");
+   const color = document.querySelector(".color");
 
-changeBackground.addEventListener("click", () => {
    body.classList.toggle("darkBody");
-   if (body.classList.contains("darkBody")) {
-      color.innerText = "Ustaw ciemne tło"
-   } else {
-      color.innerText = "Ustaw jasne tło"
-   }
-})
+   color.innerText = body.classList.contains(darkBody) ? "jasne tło" : "ciemne tło";
+};
+
+const init = () => {
+   const button = document.querySelector(".js-button");
+   button.addEventListener("click", togglrBackground);
+
+welcome();
+};
+   init()
+};
